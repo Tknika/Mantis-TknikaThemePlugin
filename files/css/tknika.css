@@ -107,3 +107,125 @@ body { padding: 2em; }
   background: #E74B37;
 }
 
+
+/*********************************************/
+/*  GENERAL SYLE                             */
+/*********************************************/
+
+a :not(.navbar.header) {
+  color: #49563a;
+}
+
+a:hover :not(.navbar.header),
+a:focus :not(.navbar.header) {
+  color: #3a442e;
+}
+
+strong a,
+small a {
+  color: #49563a;
+}
+
+small a:hover,
+small a:focus,
+strong a:hover,
+strong a:focus {
+  color: #3a442e;
+}
+
+.nav .nav-list > a {
+  color: #49563a;
+}
+
+/* Breadcrumb */
+.skin-3 .breadcrumbs {
+  background-color: #e6efdc;
+}
+
+.breadcrumb > li > a {
+  color: #49563a;
+}
+
+
+/* Sidebar menu */
+
+#sidebar.sidebar {
+  border-color: #82AF6F;
+}
+
+#sidebar .nav-list > li.active {
+  border-color: #82AF6F !important;
+  background-color: #e6efdc !important;
+}
+
+#sidebar .nav-list > li > a,
+#sidebar .nav-list > li.active > a {
+  color: #82AF6F !important;
+}
+
+
+#sidebar .skin-3 .nav-list li>.arrow:before {
+ border-right-color: #82AF6F !important;
+ border-left-color: #82AF6F !important;
+}
+
+
+.skin-3 .nav-list > li.active.highlight > a, .skin-3 .nav-list > li.active > a {
+  background-color: #f0f7e8 !important;
+  color: #82AF6F;
+}
+
+.skin-3 .nav-list > li.active, .skin-3 .nav-list > li.active + li,
+.skin-3 .sidebar.menu-min .nav-list > li > a > .menu-text {
+  border-color: #82AF6F !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #82AF6F !important;
+  border-color: #82AF6F !important;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #82AF6F !important;
+}
+
+.btn-white,
+.btn-white.btn-primary {
+  color: #82AF6F !important;
+  border-color: #82AF6F !important;
+}
+
+.btn-white:hover,
+.btn-white:focus,
+.btn-white.btn-primary:hover,
+.btn-white.btn-primary:focus {
+  color: #82AF6F !important;
+  border-color: #82AF6F !important;
+}
+
+
+/* Search input */
+#nav-search .nav-search-input {
+  border: 1px solid #82AF6F;
+}
+
+#nav-search .nav-search-icon {
+  color: #82AF6F !important;
+}
+
+/* Tables */
+#buglist a,
+#reported a,
+#timeline a {
+  color: #49563a;
+}
+
+#buglist a:focus,
+#buglist a:hover,
+#reported a:focus,
+#reported a:hover,
+#timeline a:focus,
+#timeline a:hover {
+  color: #3a442e;
+}

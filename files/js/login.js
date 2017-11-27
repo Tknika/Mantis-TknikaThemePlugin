@@ -2,7 +2,7 @@
 $(document).ready(function() {
   // Change login-logo
   $('div.login-logo img').attr('src','/plugin_file.php?file=TknikaTheme/img/tknika_logo.png');
-  
+
   // Change Google button class
   $("#sign_with_google").attr('class','loginBtn loginBtn-google');
 
@@ -47,4 +47,9 @@ $(document).ready(function() {
       $("#login-mantis").show();
     }
   })
+
+  /*
+    General style
+  */
+  $('.widget-color-blue2').addClass('widget-color-green').removeClass('widget-color-blue2');
 })
